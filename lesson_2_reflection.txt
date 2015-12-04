@@ -15,7 +15,9 @@ How is the staging area different from the working directory and the repository?
 - In the Staging area I can collect a lot of files and bring them to a reasonable order at the same time. In this manner I can do logical commits. It is a kind of conjunction plateau, a structuring area, where I can make sure the commits make sense.
 ------------------------------------------------
 
+How can you use the staging area to make sure you have one commit per logical change?
 
+- You simply have to commit the logical changes directly to the repository to separate them from each other. If a change is made within a couple of files, you can collect them first in the staging area and commit them as one commit, when they belong together logically.
 
 
  
