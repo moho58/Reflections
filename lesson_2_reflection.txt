@@ -1,0 +1,14 @@
+What happens when you initialize a repository? 
+
+-An empty Repository is created out of the file or directory, in which it was created.
+
+Why do you need to do it?
+
+-Repositories are needed to work with version control.
+------------------------------------------------
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+- In the Staging area I can collect a lot of files and bring them to a reasonable order at the same time. In this manner I can do logical commits. It is a kind of conjunction plateau, a structured area, where I can make sure the commits make sense.
+
+ 

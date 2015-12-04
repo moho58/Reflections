@@ -1,0 +1,48 @@
+Reflection: How to use Git
+
+LESSON 1:
+
+Comparing Files using Command Line:
+
+- Windows: FC File_A File_B
+  >>Anzeige: ****File_A
+             ****File_B
+             ....
+
+- Linux/Mac: -u Diff
+  >>Anzeige: --- File_A
+             +++ File_B
+             - File_A
+             + File_B
+             ....
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+- Jederzeit auf bestimmte Funktionen alter Versionen zurückgreifen können
+- Fehlersuche in Legacy Code
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pro
+- Code wird nicht unvollständig gepeichert, sondern nur in vollständigen Versionen
+- Gezielte Fehlersuche in einzelnen Commits möglich
+- Klare und logische Struktur der Code-Geschichte
+- Automatisches Speichern führt zu rießigen Versionsgeschichten - kein Überblick
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+- Google Docs sind nicht zwangsläufig inhaltlich miteinander verbunden. Für Programme, die auf mehrere Dateien gleichzeitig zugreifen müssen, müssen auch die Funktionen und einzelnen Komponenten auf dem gleichen Stand sein. Git erspart so Arbeit, während in Google Docs nicht aufeinander in Bezug stehende Inhalte.  
+
+
+How can you use the commands git log and git diff to view the history of files? 
+
+git log: Verwendung für die Versionsgeschichte einer Datei > komplette Auflistung der Changes
+git diff: Vergleich zweier Changes, um herauszufinden, wie viele Lines verändert wurden;
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Es ist jederzeit möglich, die Version, die den fehlerhaften Change enthält zu identifizieren und zu verändern bzw. den Bug zu entfernen. Eine Art Rückversicherung, gemachte Fehler mit git log, git checkout und git diff zu revidieren. 
