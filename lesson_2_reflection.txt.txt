@@ -1,0 +1,15 @@
+What happens when you initialize a repository? 
+
+- An empty Repository is created out of the file or directory, in which it was created.
+
+Why do you need to do it?
+
+- Repositories are needed to work with git.
+
+How do the diagrams help you visualize the branch structure?
+
+- You can recognize the process of development done by different people. Thus, it's possible to go back to a single commit, which is located in a different working branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+- It simply saves a lot of time. If there's no conflict, there is no reason to do it manually. Maybe sometimes I'd like to discuss some of the changes made by me and a collegue or even more people. Thus it would be fine to work together on single changes.
