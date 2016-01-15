@@ -1,1 +1,2 @@
-
+When would you want to use a remote repository rather than keeping all your work local?
+- This could be usefull when working with other people on the same project. Every contributer can store changes in the common repository to discuss them an work with them. 
